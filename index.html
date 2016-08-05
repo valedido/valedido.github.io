@@ -1,23 +1,105 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valedido - web design per siti Interessanti, Intuitivi ed Accessibili</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Valedido</h1>
+        <p class="claim">Semplicemente, Web.</p>
+        <p>Un <strong>buon Sito Web</strong> è</p>
 
-<div class="home">
+        <ul>
+            <li>
+                <h3>Interessante</h3>
+                <p>Bello da leggere e da vedere.</p>
+            </li>
+            <li>
+                <h3>Intuitivo</h3>
+                <p>Semplice da usare.</p>
+            </li>
+            <li>
+                <h3>Accessibile</h3>
+                <p>Tutti possono ricevere il suo messaggio.</p>
+            </li>
+        </ul>
 
-  <h1 class="page-heading">Posts</h1>
+        <div class="cta">
+            <a href="/contatti" class="button">Contattami</a>
+            <p>per un saluto, una consulenza o un preventivo</p>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <figure>
+            <img src="" alt="">
+        </figure>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#processo">Il Processo</a>
+                </li>
+                <li>
+                    <a href="#social">Il Portfolio</a>
+                </li>
+                <li>
+                    <a href="#copywright">Il Blog</a>
+                </li>
+                <li>
+                    <a href="#copywright">I Contatti</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div>
+        <section id="processo">
 
-</div>
+            <header>
+                <h2>Il Processo</h2>
+                <p>Il processo che porta alla realizzazione di un sito web è in continua evoluzione in funzione delle esperienze pregresse e della tecnologia che avanza. Nonostante questo, i princìpi non cambiano:</p>
+                <nav>
+                    <ol>
+                        <li><a href="#contenuto">Creazione del Contenuto</a></li>
+                        <li><a href="#design">Ideazione del Design</a></li>
+                        <li><a href="#sviluppo">Sviluppo del Sito</a></li>
+                    </ol>
+                </nav>
+            </header>
+
+            <div>
+                <h3>Creazione del Contenuto</h3>
+                <p>Che cosa è importante in un sito web? Il <strong>Contenuto</strong>.</p>
+                <p></p>
+            </div>
+
+            <section>
+                <h3 id="accessibilità">Semplicità</h3>
+                <p>Chi visita il tuo sito lo fa con un solo obiettivo: <strong>raccogliere informazioni</strong>. Vuole sapere chi sei, cosa fai e perché dovrebbe scegliere te invece di un altro. Entro 10 secondi.</p>
+                <p>Per questo è importante che il tuo sito sia semplice da utilizzare e che presenti in modo chiaro ed efficace le informazioni</p>
+            </section>
+
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore unde ut alias. Laudantium et aperiam quasi fugiat nisi quibusdam voluptates soluta nostrum molestiae culpa ipsum aliquam, odit optio dolore iure.</p>
+                <h3 id="accessibilità">Accessibilita</h3>
+            </section>
+
+            <section>
+                <h3 id="originalità">Originalità</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore unde ut alias. Laudantium et aperiam quasi fugiat nisi quibusdam voluptates soluta nostrum molestiae culpa ipsum aliquam, odit optio dolore iure.</p>
+            </section>
+
+        </section>
+
+        <section id="social">
+            <h2>Social Media</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio officia magni fugit, nemo doloribus architecto error id quae ipsa dicta, blanditiis amet nam, voluptatum, maiores harum eveniet cumque libero culpa.</p>
+        </section>
+
+        <section id="copywright">
+            <h2>Copywrighting</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio officia magni fugit, nemo doloribus architecto error id quae ipsa dicta, blanditiis amet nam, voluptatum, maiores harum eveniet cumque libero culpa.</p>
+        </section>
+    </div>
+</body>
+</html>
